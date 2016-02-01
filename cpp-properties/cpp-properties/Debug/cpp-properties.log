@@ -1,0 +1,81 @@
+﻿  main.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(1348): error C2065: '_Args': undeclared identifier
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(1417): note: see reference to function template instantiation 'int std::_Invoker_functor::_Call<_Callable&,value_type&>(TestProperties::Run::<lambda_88cc9ff252a37df033f494b35f8217aa>,value_type &)' being compiled
+          with
+          [
+              _Callable=_Decayed,
+              value_type=int
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(1441): note: see reference to function template instantiation 'int std::invoke<_Callable&,value_type&>(TestProperties::Run::<lambda_88cc9ff252a37df033f494b35f8217aa>,value_type &)' being compiled
+          with
+          [
+              _Callable=_Decayed,
+              value_type=int
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional(208): note: see reference to function template instantiation '_Rx std::_Invoke_ret<_Rx,_Callable&,value_type&>(std::_Forced<_Rx,false>,_Callable &,value_type &)' being compiled
+          with
+          [
+              _Rx=int,
+              _Callable=_Decayed,
+              value_type=int
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional(206): note: while compiling class template member function 'int std::_Func_impl<_Decayed,_Alloc,_Ret,value_type &>::_Do_call(value_type &)'
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ret=int,
+              value_type=int
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional(134): note: see reference to class template instantiation 'std::_Func_impl<_Decayed,_Alloc,_Ret,value_type &>' being compiled
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ret=int,
+              value_type=int
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional(337): note: see reference to class template instantiation 'std::_Is_large<_Myimpl>' being compiled
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional(316): note: see reference to function template instantiation 'void std::_Func_class<_Ret,value_type &>::_Reset_alloc<_Ty,std::allocator<int>>(_Fx &&,const _Alloc &)' being compiled
+          with
+          [
+              _Ret=int,
+              value_type=int,
+              _Ty=TestProperties::Run::<lambda_88cc9ff252a37df033f494b35f8217aa>,
+              _Fx=TestProperties::Run::<lambda_88cc9ff252a37df033f494b35f8217aa>,
+              _Alloc=std::allocator<int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional(316): note: see reference to function template instantiation 'void std::_Func_class<_Ret,value_type &>::_Reset_alloc<_Ty,std::allocator<int>>(_Fx &&,const _Alloc &)' being compiled
+          with
+          [
+              _Ret=int,
+              value_type=int,
+              _Ty=TestProperties::Run::<lambda_88cc9ff252a37df033f494b35f8217aa>,
+              _Fx=TestProperties::Run::<lambda_88cc9ff252a37df033f494b35f8217aa>,
+              _Alloc=std::allocator<int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional(482): note: see reference to function template instantiation 'void std::_Func_class<_Ret,value_type &>::_Reset<TestProperties::Run::<lambda_88cc9ff252a37df033f494b35f8217aa>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=int,
+              value_type=int,
+              _Fx=TestProperties::Run::<lambda_88cc9ff252a37df033f494b35f8217aa>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional(482): note: see reference to function template instantiation 'void std::_Func_class<_Ret,value_type &>::_Reset<TestProperties::Run::<lambda_88cc9ff252a37df033f494b35f8217aa>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=int,
+              value_type=int,
+              _Fx=TestProperties::Run::<lambda_88cc9ff252a37df033f494b35f8217aa>
+          ]
+  c:\users\nathaniel.blair\documents\github\cpp-properties\cpp-properties\cpp-properties\testproperties.hpp(26): note: see reference to function template instantiation 'std::function<value_type (value_type &)>::function<TestProperties::Run::<lambda_88cc9ff252a37df033f494b35f8217aa>>(_Fx)' being compiled
+          with
+          [
+              value_type=int,
+              _Fx=TestProperties::Run::<lambda_88cc9ff252a37df033f494b35f8217aa>
+          ]
+  c:\users\nathaniel.blair\documents\github\cpp-properties\cpp-properties\cpp-properties\testproperties.hpp(13): note: see reference to function template instantiation 'std::function<value_type (value_type &)>::function<TestProperties::Run::<lambda_88cc9ff252a37df033f494b35f8217aa>>(_Fx)' being compiled
+          with
+          [
+              value_type=int,
+              _Fx=TestProperties::Run::<lambda_88cc9ff252a37df033f494b35f8217aa>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(1349): error C2672: 'operator __surrogate_func': no matching overloaded function found
